@@ -4,14 +4,14 @@
 /**
 *_putchar - function defination
 *
-*@n: input(parameter)
+*@c: input(parameter)
 *
 * Description: outputs chars
 *
 * Return: stdoutput
 */
 
-int _putchar(char n)
+int _putchar(char c)
 {
-	return (write(1, &n, 1));
+	return (write(1, &c, 1));
 }

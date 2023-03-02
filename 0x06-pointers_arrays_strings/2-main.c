@@ -1,11 +1,12 @@
-#include "../holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
  * main - check the code for ALX School students.
  *
  * Return: Always 0.
- */
+*/
+
 int main(void)
 {
 	char s1[98];
@@ -28,7 +29,7 @@ int main(void)
 	{
 		if (i % 10)
 		{
-			 printf(" ");
+			printf(" ");
 		}
 		if (!(i % 10) && i)
 		{
